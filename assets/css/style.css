@@ -27,6 +27,10 @@ li{
     color: #a5a5a5;
 }
 
+.f-white{
+    color: white;
+}
+
 .w-100{
     width: 100%;
 }
@@ -80,8 +84,25 @@ header a{
 
 .banner{
     background-image: url(../img/banner.jpg);
-    height: inherit;
+    height: 450px;
     background-position: center;
+}
+
+.banner-text{
+    width: 52%;
+    z-index: 1;
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+}
+
+.banner-text h2{
+    font-weight: normal;
+    font-size: 1.9em;
+}
+
+.banner-text p{
+
 }
 
 .section-2{
