@@ -118,7 +118,7 @@ h3{
     float: left;
 }
 
-.img-c1{
+.c-img{
     position: relative;
     margin-bottom: 15px;
 }
@@ -126,6 +126,12 @@ h3{
 .img1{
     background-image: url(../img/img-1.jpg);
     background-size: cover;
+    height: 180px;
+}
+
+.img3{
+    background-image: url(../img/img-3.jpg);
+    background-position: center;
     height: 180px;
 }
 
