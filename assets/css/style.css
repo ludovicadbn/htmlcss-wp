@@ -23,10 +23,6 @@ li{
     background-color: #8801fe;
 }
 
-.bg-yellow{
-    background-color: #e1d67a;
-}
-
 .f-gray{
     color: #a5a5a5;
 }
@@ -35,10 +31,23 @@ li{
     width: 100%;
 }
 
+.br-10{
+    border-radius: 10px;
+}
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 /* FINE UTILITY */
 
@@ -66,6 +75,13 @@ header a{
 .section-1{
     height: 450px;
     margin: 20px 0;
+    position: relative;
+}
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    height: inherit;
+    background-position: center;
 }
 
 .section-2{
