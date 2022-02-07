@@ -4,6 +4,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+li{
+    list-style: none;
+}
 /* FINE RESET */
 
 /* UTILITY */
@@ -15,16 +19,16 @@
     background-color: #abcfe7;
 }
 
-.bg-pink{
-    background-color: #e579e6;
-}
-
 .bg-purple{
     background-color: #8801fe;
 }
 
 .bg-yellow{
     background-color: #e1d67a;
+}
+
+.f-gray{
+    color: #a5a5a5;
 }
 
 .w-100{
@@ -40,13 +44,25 @@
 
 body{
     width: 80%;
-    margin: 15px auto;
+    margin: 0px auto 15px;
+    font-family: sans-serif;
 }
 
-.header{
-    height: 150px;
+/* haader */
+header img{
+    width: 180px;
 }
 
+header li{
+    display: inline-block;
+    padding: 30px 5px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+/* main */
 .section-1{
     height: 450px;
     margin: 20px 0;
@@ -75,6 +91,7 @@ body{
     float: left;
 }
 
+/* footer */
 .footer{
     height: 60px;
 }
