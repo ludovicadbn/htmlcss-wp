@@ -11,10 +11,6 @@ li{
 /* FINE RESET */
 
 /* UTILITY */
-.bg-lightblue{
-    background-color: #abcfe7;
-}
-
 .bg-purple{
     background-color: #8801fe;
 }
@@ -97,8 +93,7 @@ header a{
 }
 
 .section-2{
-    height: 550px;
-    margin: 20px 0 6px;
+    margin: 20px 0 10px;
 }
 
 .row h2{
@@ -118,6 +113,13 @@ h3{
     float: left;
 }
 
+.c-60{
+    width: calc(60% - 30px);
+    height: calc(85% - 30px);
+    margin: 15px 15px;
+    float: left;
+}
+
 .c-img{
     position: relative;
     margin-bottom: 15px;
@@ -129,20 +131,25 @@ h3{
     height: 180px;
 }
 
+.img2{
+    background-image: url(../img/banner-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+}
+
 .img3{
     background-image: url(../img/img-3.jpg);
     background-position: center;
     height: 180px;
 }
 
-.c-60{
-    width: calc(60% - 30px);
-    height: calc(85% - 30px);
-    margin: 15px 15px;
-    float: left;
+/* footer */
+footer div{
+    text-align: center;
 }
 
-/* footer */
-.footer{
-    height: 60px;
+footer div span{
+    color: #ff0202;
+    font-size: 1.3em;
 }
