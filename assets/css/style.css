@@ -11,10 +11,6 @@ li{
 /* FINE RESET */
 
 /* UTILITY */
-.bg-blue{
-    background-color: #0584ff;
-}
-
 .bg-lightblue{
     background-color: #abcfe7;
 }
@@ -78,7 +74,6 @@ header a{
 /* main */
 .section-1{
     height: 450px;
-    margin: 20px 0;
     position: relative;
 }
 
@@ -101,17 +96,13 @@ header a{
     font-size: 1.9em;
 }
 
-.banner-text p{
-
-}
-
 .section-2{
     height: 550px;
-    margin-bottom: 6px;
+    margin: 20px 0 6px;
 }
 
-.row{
-    height: 15%;
+.row h2{
+    font-size: 2.2em;
 }
 
 .c-20{
