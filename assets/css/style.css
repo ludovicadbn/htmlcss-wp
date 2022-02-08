@@ -126,9 +126,6 @@ h3{
 .c-img{
     position: relative;
     margin-bottom: 15px;
-}
-
-.img{
     background-size: cover;
     background-position: center;
     height: 180px;
