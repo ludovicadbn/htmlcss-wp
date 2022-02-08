@@ -49,21 +49,28 @@ body{
     font-family: sans-serif;
 }
 
-/* haader */
+/* HEADER */
 header img{
     width: 180px;
 }
 
 header li{
     display: inline-block;
-    padding: 30px 5px;
 }
 
 header a{
+    display: inline-block;
     text-decoration: none;
+    padding: 15px 5px;
+    margin: 15px 0;
 }
 
-/* main */
+header a:hover{
+    background-color: #a5a5a5;
+    color: white;
+}
+
+/* MAIN */
 .section-1{
     height: 450px;
     position: relative;
@@ -73,6 +80,7 @@ header a{
     background-image: url(../img/banner.jpg);
     height: 450px;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .banner-text{
@@ -143,7 +151,7 @@ h3{
     height: 180px;
 }
 
-/* footer */
+/* FOOTER */
 footer div{
     text-align: center;
 }
