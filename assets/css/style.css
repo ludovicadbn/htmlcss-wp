@@ -132,23 +132,22 @@ h3{
     margin-bottom: 15px;
 }
 
-.img1{
+.img{
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+}
+
+#img1{
     background-image: url(../img/img-1.jpg);
-    background-size: cover;
-    height: 180px;
 }
 
-.img2{
+#img2{
     background-image: url(../img/banner-2.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 180px;
 }
 
-.img3{
+#img3{
     background-image: url(../img/img-3.jpg);
-    background-position: center;
-    height: 180px;
 }
 
 /* FOOTER */
